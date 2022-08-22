@@ -1,23 +1,23 @@
-import React from "react";
-import "./App.css";
+import logo from './logo.svg';
+import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <h1>Weather App</h1>
-      <footer>
-        This project was created by{" "}
-        <a href="https://tiny-semolina-5cec1e.netlify.app/" target="_blank">
-          Nataliia Prokopenko{" "}
-        </a>
-        and is{" "}
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Edit <code>src/App.js</code> and save to reload.
+        </p>
         <a
-          href="https://github.com/NataliiaProkopenko87/react-weather-app"
+          className="App-link"
+          href="https://reactjs.org"
           target="_blank"
+          rel="noopener noreferrer"
         >
-          open-sourced on GitHub
+          Learn React
         </a>
-      </footer>
+      </header>
     </div>
   );
 }
